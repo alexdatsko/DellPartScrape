@@ -17,15 +17,15 @@ The following arguments are required: -p/--partnumber
 
 **Examples:**
 
-`python3 dellscrape.py -s 8ZCQHH2 -p 4HGTJ`
+`python3 DellPartScrape.py -s 8ZCQHH2 -p 4HGTJ`
 
 Will search the configuration page of service tag 8ZCQHH2 for Dell Part # 4HGTJ - which is a 600g SAS HDD:  HD,600G,SAS12,15K,2.5,S-VAL,EC	4
 
-`python3 dellscrape.py servicetags.txt -p 400-AJRH`
+`python3 DellPartScrape.py servicetags.txt -p 400-AJRH`
 
 Will search for all service tags (one per line) in servicetags.txt for Dell Part # 400-AJRH which is the assembly of : 600GB 15K RPM SAS ISE 2.5in Ho t-plug Hard Drive (including screws, etc)
 
-`python3 dellscrape.py file.txt -p 4HGTJ --verbose`
+`python3 DellPartScrape.py file.txt -p 4HGTJ --verbose`
 
 Shows ALL raw output, etc
 
